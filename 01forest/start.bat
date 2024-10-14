@@ -1,1 +1,4 @@
-node server.js
+@echo off
+cd /d %~dp0
+node serve.js
+pause
