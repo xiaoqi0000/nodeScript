@@ -31,6 +31,9 @@ itemInstanceManagerData.forEach(itemBlock => {
     if (itemBlock.ItemId === 364) {
         itemBlock.TotalCount = 1000;
     }
+    if (itemBlock.ItemId === 387) {
+        itemBlock.TotalCount = 1000;
+    }
 });
 
 const updatedJsonString = JSON.stringify(jsonObject);
